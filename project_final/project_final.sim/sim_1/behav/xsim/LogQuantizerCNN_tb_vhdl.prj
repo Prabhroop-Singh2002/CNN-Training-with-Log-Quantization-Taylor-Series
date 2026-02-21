@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_final.srcs/sources_1/new/LogQuantizer.vhd" \
+"../../../../project_final.srcs/sim_1/new/LogQuantizerCNN_tb.vhd" \
+
+# Do not sort compile order
+nosort

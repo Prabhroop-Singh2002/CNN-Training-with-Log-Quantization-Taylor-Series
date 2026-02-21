@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Dec 20 16:35:15 2024
+# Process ID: 10904
+# Current directory: C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.runs/synth_1
+# Command line: vivado.exe -log log_quantize.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source log_quantize.tcl
+# Log file: C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.runs/synth_1/log_quantize.vds
+# Journal file: C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.runs/synth_1\vivado.jou
+# Running On        :Prabhroop
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :13th Gen Intel(R) Core(TM) i9-13900H
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16788 MB
+# Swap memory       :51539 MB
+# Total Virtual     :68328 MB
+# Available Virtual :1991 MB
+#-----------------------------------------------------------
+source log_quantize.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 508.488 ; gain = 200.711
+Command: synth_design -top log_quantize -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 416
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 965.812 ; gain = 453.320
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'log_quantize' [C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.srcs/sources_1/new/log_quantize.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'int_frac' [C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.srcs/sources_1/new/int_frac.vhd:31]
+ERROR: [Synth 8-27] non-constant real-valued expression not supported [C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.srcs/sources_1/new/int_frac.vhd:37]
+ERROR: [Synth 8-285] failed synthesizing module 'int_frac' [C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.srcs/sources_1/new/int_frac.vhd:31]
+ERROR: [Synth 8-285] failed synthesizing module 'log_quantize' [C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.srcs/sources_1/new/log_quantize.vhd:31]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 1075.344 ; gain = 562.852
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 20 16:36:14 2024...

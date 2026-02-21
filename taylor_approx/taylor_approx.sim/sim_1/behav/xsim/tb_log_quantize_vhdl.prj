@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../taylor_approx.srcs/sources_1/new/int_frac.vhd" \
+"../../../../taylor_approx.srcs/sources_1/new/log2_lookup.vhd" \
+"../../../../taylor_approx.srcs/sources_1/new/taylor_approx.vhd" \
+"../../../../taylor_approx.srcs/sources_1/new/log_quantize.vhd" \
+"../../../../taylor_approx.srcs/sim_1/new/tb_log_quantize.vhd" \
+
+# Do not sort compile order
+nosort

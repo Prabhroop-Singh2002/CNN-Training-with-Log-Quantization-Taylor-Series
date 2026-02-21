@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Dec 20 16:35:15 2024
+# Process ID: 10904
+# Current directory: C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.runs/synth_1
+# Command line: vivado.exe -log log_quantize.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source log_quantize.tcl
+# Log file: C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.runs/synth_1/log_quantize.vds
+# Journal file: C:/Users/prabh/OneDrive/Desktop/taylor_approx/taylor_approx.runs/synth_1\vivado.jou
+# Running On        :Prabhroop
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :13th Gen Intel(R) Core(TM) i9-13900H
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16788 MB
+# Swap memory       :51539 MB
+# Total Virtual     :68328 MB
+# Available Virtual :1991 MB
+#-----------------------------------------------------------
+source log_quantize.tcl -notrace

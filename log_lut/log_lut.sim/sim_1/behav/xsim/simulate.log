@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+ERROR: Array sizes do not match, left array has 9 elements, right array has 8 elements
+Time: 0 ps  Iteration: 1  Process: /tb_compare_manual/uut_lut/line__297
+  File: C:/Users/prabh/OneDrive/Desktop/log_lut/log_lut.srcs/sources_1/new/lut_log.vhd
+
+HDL Line: C:/Users/prabh/OneDrive/Desktop/log_lut/log_lut.srcs/sources_1/new/lut_log.vhd:310

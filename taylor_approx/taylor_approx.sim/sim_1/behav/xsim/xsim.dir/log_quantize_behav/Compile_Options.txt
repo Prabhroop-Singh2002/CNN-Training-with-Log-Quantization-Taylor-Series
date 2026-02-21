@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "log_quantize_behav" "xil_defaultlib.log_quantize" -log "elaborate.log" 

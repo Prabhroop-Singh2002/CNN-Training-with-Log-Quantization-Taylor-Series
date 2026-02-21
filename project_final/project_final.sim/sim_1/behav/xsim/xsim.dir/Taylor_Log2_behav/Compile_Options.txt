@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Taylor_Log2_behav" "xil_defaultlib.Taylor_Log2" -log "elaborate.log" 

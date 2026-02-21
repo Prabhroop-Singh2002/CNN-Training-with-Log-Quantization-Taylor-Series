@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+ERROR: Integer overflow in ** operation
+Time: 25 ns  Iteration: 1  Process: /LogQuantizerCNN_tb/uut/line__77
+  File: C:/Users/prabh/OneDrive/Desktop/project_final/project_final.srcs/sources_1/new/LogQuantizer.vhd
+
+HDL Line: C:/Users/prabh/OneDrive/Desktop/project_final/project_final.srcs/sources_1/new/LogQuantizer.vhd:83
