@@ -4,6 +4,8 @@
 
 ## 📌 Project Overview
 
+![Alt text](assets/vhdl_sim.png)
+
 This project focuses on improving CNN training efficiency using:
 
 - Logarithmic quantization
@@ -133,7 +135,21 @@ This ensures multiplication-heavy operations are minimized throughout training.
 | Simplified Bitwise | ~99.3% | ~130 sec |
 | **Proposed Log Quantized CNN** | **98.7%** | **~60 sec** |
 
+Training, validation accuracy and loss in simplified Log_Bitwise_MNIST Classifier:
+![Alt text](assets/1.png)
+
+Training, validation accuracy and loss in a Standard_MNIST_classifier:
+![Alt text](assets/2.png)
+
+Training, validation accuracy and loss in the proposed implementation:
+![Alt text](assets/3.png)
+
+Training time per epoch comparison:
+![Alt text](assets/4.png)
+
+
 > 🔥 **Key Result:** The proposed method reduced training time by nearly **50% per epoch** while maintaining comparable accuracy.
+
 
 ---
 
@@ -179,13 +195,6 @@ Simulation verified correct log quantization behavior.
 - ✔ Lower computational complexity
 - ✔ Lookup-based acceleration
 - ✔ Scalable to FPGA/ASIC
-
-## ⚠️ Limitations
-
-- Tested only on MNIST
-- Only first-order Taylor approximation used
-- Lookup table incomplete (only partial entries in VHDL)
-- Accuracy slightly lower than standard CNN
 
 ---
 
